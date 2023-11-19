@@ -1,0 +1,239 @@
+/* Golobal CSS  Start*/
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins', sans-serif;
+}
+
+a, a:hover{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: none;
+
+}
+
+.container{
+    width: 1140px;
+    margin: auto;
+}
+
+/* Golobal CSS end*/
+.header-section{
+    width: 100%;
+    background:#F0FFF0
+}
+.logo {
+    margin-top: 20px;
+   
+ }
+.header-section .navbar{
+    display: flex;
+    align-items: center;
+
+}
+.header-section .navbar .logo{
+    flex-basis: 15%;
+    
+}
+.header-section .navbar .logo .img{
+    width: 100%;
+    height: auto;
+
+}
+.header-section .navbar .nav{
+    flex-basis: 70%;
+    display: flex;
+    justify-content: flex-end;
+}
+.header-section .navbar .nav ul{
+    margin-top: -11px;
+    padding: 0;
+}
+.header-section .navbar .nav li{
+    list-style-type:none;
+    display:inline;
+    margin-right: 30px
+}
+
+
+.header-section .navbar .btn{
+    flex-basis: 15%;
+}
+.header-section .navbar li a{
+    background: #21b5b3;
+    padding: 12px 28px;
+    border-radius: 33px;
+    border: #21B573;
+    color: white;
+    text-decoration: none;
+}
+.banner{
+    width: 100%;
+    background: #F0FFF0;
+}
+.banner .banner-inner {
+    display: flex;
+}
+
+
+.banner .banner-inner .content{
+    flex-basis: 50%;
+    padding-top: 60px;
+    padding-bottom: 70px;
+
+}
+.banner .banner-inner .content span{
+    cursor: #FD511A;
+
+}
+.banner .banner-inner .content h1{
+   font-size: 48px;
+   font-weight: 70px;
+   line-height: 70px;
+}
+.banner .banner-inner .content h1 span{
+    color: #21B573;
+
+}
+
+.banner .banner-inner .content p{
+    line-height: 36px;
+    margin-top: 20px;
+
+}
+.banner .banner-inner .content .banner-btn{
+
+    margin-top: 45px;
+
+}
+
+
+.banner .banner-inner .content .banner-btn a{
+    background: #21B573;
+    padding: 12px 28px;
+    border: 1px solid #000;
+    border-radius: 33px;
+    color: white;
+}
+
+.banner .banner-inner .img-part{
+    flex-basis: 50%;
+
+}
+
+.banner .banner-inner .img-part img{ 
+    width: 100%;
+    height: auto;
+}
+.feature{
+    width: 100%;
+    
+
+}
+
+.feature .feature-inner{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    size: 36px;
+    margin-top: 50px;
+
+}
+.feature .feature-inner .f-box{
+    border-radius: 10px;
+    padding: 50px;
+    transition: .5s;
+
+}
+
+.feature .feature-inner .f-box:hover {
+
+    box-shadow: 0px 20px 40px 0px rgb(0, 0, 0, .10)
+    
+    
+}
+
+
+.feature .feature-inner .f-box img{
+    width: 66px;
+    height: 85px;
+
+}
+/* courses secthion css code start */
+    
+.courses{
+    width: 100%;
+    padding: 50px 0px;
+}
+
+
+.courses-inner{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.c-card{
+    width: 1440px
+}
+
+.c-card img{
+    width: 331px;
+    height: 234px;
+    
+}
+
+.c-card .c-btn a{
+    background: #21B573;
+    padding: 12px 28px;
+    border: 1px solid #000;
+    border-radius: 33px;
+    color: white;
+} 
+
+
+.c-footer{
+    display: flex;
+
+}
+
+.c-footer .left{
+
+}
+.c-footer .left img{
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+
+}
+.c-footer .left span{
+
+}
+
+.c-footer .right{
+
+}
+.c-footer .right img{
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+
+}
+
+
+.c-footer .right span{
+
+}
+
+
+
+
+/* courses secthion css code end */
